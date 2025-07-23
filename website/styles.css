@@ -1,0 +1,92 @@
+body {
+  background-color: #6272a4;
+  font-family: "Trebuchet MS", sans-serif;
+  color: #f8f8f2;
+  margin: 0px
+}
+
+a:link {
+  color: #f8f8f2;
+}
+
+a:visited { 
+  color: #f1fa8c 
+}
+
+a:hover {
+  color: #bd93f9;
+}
+
+p {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.topbar {
+  margin: 20px auto;  
+  width: 60%;
+  padding: 10px; 
+  background-color: #282a36;
+  color: #ff79c6;
+}
+
+.topbar p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.topbar p.name {
+  font-size: 32px;
+}
+
+.topbar p.subtitle {
+  font-size: 28px;
+}
+
+.topbar p.attributes {
+  font-size: 20px;
+}
+
+
+.resume {
+  margin: 20px auto;  
+  width: 60%;
+  background-color: #44475a;
+  padding: 10px; 
+}
+
+.head {
+  font-size: 22px;
+  margin-bottom: 1px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-top: 1px;
+}
+
+hr {
+  border: 1px solid #50fa7b;
+  margin-top: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bottombar {
+  margin: 20px auto;  
+  width: 60%;
+  padding: 10px; 
+  background-color: #282a36;
+  color: #ff79c6;
+  text-align: center;
+}
+
+.bottombar p {
+  margin: 1px;
+}
