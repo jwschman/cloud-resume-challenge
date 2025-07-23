@@ -51,7 +51,7 @@ func handler(req events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse,
 			Headers: map[string]string{
 				"Content-Type": "application/json",
 			},
-			Body: `{"error": "Internal Server Error"}`,
+			Body: `{"error": "Internal Server Error!"}`,
 		}, nil
 	}
 
