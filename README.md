@@ -17,7 +17,7 @@ Or check out my [full blog post about it here](https://jwschman.github.io/posts/
 
 ## Infrastructure Diagram
 
-![infrastructure diagram](images/infrastructure.png)
+![infrastructure diagram](images/infrastructure-diagram.png)
 
 ## AWS Services Used
 

@@ -36,10 +36,10 @@ jobs:
 
     - name: Initialize Terraform
       run: terraform init
-      working-directory: ./infrastructure/envs/testing
+      working-directory: ./infrastructure/envs/production
 
     - name: Sync files to S3 bucket
-      working-directory: ./infrastructure/envs/testing
+      working-directory: ./infrastructure/envs/production
       run: |
         terraform apply \
           -target=module.bucket.aws_s3_object.static_files \
